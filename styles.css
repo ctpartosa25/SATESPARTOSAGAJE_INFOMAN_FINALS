@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(45deg, #4e91f9, #60c657);
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header p {
+    font-size: 14px;
+    color: #e7f5ee;
+    margin-top: 10px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+nav {
+    background-color: #eaeaea;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #4e91f9;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #d62828;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+input, select, button {
+    padding: 12px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #4e91f9;
+    box-shadow: 0 0 0 3px rgba(78, 145, 249, 0.2);
+}
+
+button {
+    background-color: #4e91f9;
+    color: white;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3a77d1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #4e91f9;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 13px;
+    color: #888;
+    padding: 20px;
+}

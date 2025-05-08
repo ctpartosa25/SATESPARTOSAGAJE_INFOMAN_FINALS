@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gate Pass Check-Out</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>Employee & Visitor Gate Pass</header>
+
+    <nav>
+        <a href="index.html">Check-In</a>
+        <a href="checkout.html">Check-Out</a>
+        <a href="view.php">Admin Log</a>
+    </nav>
+
+    <div class="container">
+        <h2>Check-Out</h2>
+        <form action="checkout.php" method="post">
+            <input type="number" name="id" placeholder="Enter ID to Check Out" required>
+            <button type="submit">Check Out</button>
+        </form>
+    </div>
+
+    <footer>&copy; 2025 Gate Pass System. All rights reserved.</footer>
+</body>
+</html>
